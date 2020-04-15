@@ -2,7 +2,7 @@ function calculateAge()
 {
     x = prompt('enter your year of birth');
     y = new Date().getFullYear();
-    age = (x - y);
+    age = (y - x);
     alert(age);
 
 }
