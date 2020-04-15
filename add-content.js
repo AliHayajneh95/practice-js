@@ -5,3 +5,5 @@ function calculateAge()
     alert('your age is ', 'y' - 'x');
 
 }
+
+calculateAge();
