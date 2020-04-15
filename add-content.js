@@ -1,8 +1,8 @@
 function calculateAge()
 {
-    var x = prompt('enter your year of birth');
+    x = prompt('enter your year of birth');
     y = new Date().getFullYear();
-    age = (x - y).toString;
+    age = (x - y);
     alert(age);
 
 }
